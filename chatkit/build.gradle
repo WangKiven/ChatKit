@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
+/*apply plugin: 'com.novoda.bintray-release'*/
 
 android {
     compileSdkVersion 28
@@ -18,7 +18,7 @@ android {
     }
 }
 
-publish {
+/*publish {
     groupId = 'com.github.stfalcon'
     artifactId = 'chatkit'
     publishVersion = '0.3.3'
@@ -26,7 +26,7 @@ publish {
     licences = ['Apache-2.0']
     uploadName = 'ChatKit'
     website = 'https://github.com/stfalcon-studio/ChatKit.git'
-}
+}*/
 
 ext {
     supportVersion = '27.1.1'

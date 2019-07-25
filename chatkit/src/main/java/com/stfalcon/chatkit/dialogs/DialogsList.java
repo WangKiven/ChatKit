@@ -34,7 +34,7 @@ public class DialogsList extends RecyclerView {
     private DialogListStyle dialogStyle;
 
     public DialogsList(Context context) {
-        super(context);
+        this(context, null);
     }
 
     public DialogsList(Context context, @Nullable AttributeSet attrs) {
