@@ -33,7 +33,7 @@ public class MessagesList extends RecyclerView {
     private MessagesListStyle messagesListStyle;
 
     public MessagesList(Context context) {
-        super(context);
+        this(context, null);
     }
 
     public MessagesList(Context context, @Nullable AttributeSet attrs) {
